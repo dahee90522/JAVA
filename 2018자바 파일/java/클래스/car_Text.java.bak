@@ -1,0 +1,22 @@
+class car_Text{
+	public static void main(String ar[]){
+		/*String brand;
+	int price;
+	int age;
+	int hight;
+	int km;*/
+		car c1 = new car();
+		c1.brand="BMW M760Li xDrive";
+		c1.age=9;
+		c1.price=222100000;
+		c1.hight=1.9;
+		c1.weight = 2000;
+
+		System.out.println("브랜드 "+c1.brand + " 사용 년 "+ c1.age+" 가격 "+c1.price+"원 높이 "+c1.height+"m 무게 "+c1.weight+"kg");
+	c1.straight();
+	c1.stop();
+	c1.left();
+	c1.right();
+	c1.back();
+	}
+}

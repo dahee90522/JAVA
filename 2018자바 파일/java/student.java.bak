@@ -1,0 +1,6 @@
+class student{
+	String name;
+	String addr;
+	int call;
+	int grade;
+}

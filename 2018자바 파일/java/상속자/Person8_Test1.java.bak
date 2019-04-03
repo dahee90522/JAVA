@@ -1,0 +1,3 @@
+class Player8 Pesron8(){
+	System.out.println("°í±â¸¦ ¸Ô´Ù.");
+}

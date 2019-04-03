@@ -1,0 +1,10 @@
+class student_test{
+	public static void main(String ar[]){
+		student s1=new student();
+		s1.name="김현우";
+		s1.grade = 1;
+		s1.addr="서울";
+		s1.call="01011112222";
+		System.out.println("내 이름은 "+s1.name+"이고 "+s1.grade+"학년이고 "+s1.addr+"에 살고 전화번호는 "+s1.call+" \입니다.");
+	}
+}

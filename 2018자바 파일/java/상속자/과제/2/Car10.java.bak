@@ -1,0 +1,11 @@
+class Car10 {
+  String carname;
+  String color;
+  int velocity; //加档
+
+  public void speedUp(){
+  System.out.println("5究 刘啊");}// : 5究 刘啊
+  public void speeddown(){
+  System.out.println("5究 皑家");}//: 5究 皑家
+  }
+

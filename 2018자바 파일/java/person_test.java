@@ -1,0 +1,16 @@
+class person_test{
+	public static void main(String ar[]){
+		person p1=new person();
+		p1.name="MIKE";
+		p1.age=30;
+		System.out.println(p1.name + "\n" + p1.age);
+		p1.go();
+		p1.eat();
+		person p2=new person();
+		p2.name = "Tom";
+		p2.age = 25;
+		System.out.println(p2.name + "\n" + p2.age);
+		p2.eat();
+		p2.go();
+	}
+}

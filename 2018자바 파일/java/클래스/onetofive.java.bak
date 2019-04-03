@@ -1,0 +1,15 @@
+class onetofive{
+	public void add(){
+		int a = 1;
+		int total = 0;
+		while(a<=5){
+			total+=a;
+		}
+	System.out.println(total);
+	}
+	public static void main(String ar[]){
+		onetofive o1 = new onetofive();
+		o1.add();
+		
+	}
+}

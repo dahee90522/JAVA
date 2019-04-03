@@ -1,0 +1,25 @@
+abstract class Ship
+{
+	public abstract int Passengers();//½Â°´
+	public abstract int Luggage();//Áü
+}
+
+class Ship1
+{
+	public int Passengers(){
+		return 10;
+	}
+	public int Luggage(){
+		return 10;
+	}
+}
+
+class Ship_Test
+{
+	public static void main(String ar[]){
+		Ship1 s = new Ship1();
+
+		System.out.println("ÃÖ´ë Å¾½Â ÀÎ¿ø : " + s.Passengers()+"¸í");
+		System.out.println("ÃÖ´ë ÀûÀç·® : " + s.Luggage() + "kg");
+	}
+}

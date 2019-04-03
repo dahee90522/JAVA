@@ -1,0 +1,24 @@
+class overloading{
+	public int add(int a, int b){
+		System.out.println (a+b);
+		return(a+b);
+	}
+	public double add(double a, double b, double c){
+		System.out.println(a+b+c);
+		return(a+b+c);
+	}
+	public  String add(String a, String b){
+		return (a + b);
+	}
+	public void add(int a, int b, String x){
+		System.out.println(a+b+x);
+	}
+
+	public static void main(String ar[]){
+		overloading t = new overloading();
+		t.add(2, 5);
+		t.add(3.5, 2.8, 9.2);
+		System.out.println(t.add("Java  ", "c"));
+		t.add(3, 5, "   cool");
+	}
+}

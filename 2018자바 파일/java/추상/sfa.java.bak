@@ -1,0 +1,89 @@
+class Product{
+	private String id, info, maker, price;
+	Product(String id, String info, String maker, String price){
+		this.id = id;
+		this.info = info;
+		this.maker = maker;
+		this.price = price;
+	}
+	public void setId(String id){
+		this.id = id;
+	}
+	public String getId(){
+		return id;
+	}
+	public void setInfo(String info){
+		this.info = info;
+	}
+	public String getInfo(){
+		return info;
+	}
+	public void setMaker(String maker){
+		this.maker = maker;
+	}
+	public String getMaker(){
+		return maker;
+	}
+	public void setPrice(String price){
+		this.price = price;
+	}
+	public String getPrice(){
+		return price;
+	}
+	public String show(){
+		return "id >> "+getId()+"\n정보 >> "+getInfo()+"\n생성자 >> "+getMaker()+"\n가격 >> "+getPrice()+"\n";
+	}
+}
+class Book extends Product{
+	private String id, info, maker, price, title, author, isbn;
+	Book(String id, String info, String maker, String price, String title, String author, String isbn){
+		super(id, info, maker, price);
+		this.title = title;
+		this.author = author;
+		this.isbn = isbn;
+	}
+		public void setTitle(String title){
+		this.title = title;
+	}
+	public String getTitle(){
+		return title;
+	}
+	public void setAuthor(String author){
+		this.author = author;
+	}
+	public String getAuthor(){
+		return author;
+	}
+	public void setIsbn(String isbn){
+		this.isbn = isbn;
+	}
+	public String getIsbn(){
+		return isbn;
+	}
+	public String show(){
+		return super.show()+"제목 >> "+getTitle()+"\n저자 >> "+getAuthor()+"\n번호 >> "+getIsbn();
+	}
+}
+class Music extends Product{
+	private String id, info, maker, price, titlesong, singer;
+	Music(String id, String info, String maker, String price, String titlesong, String singer){
+		super(id, info, maker, price);
+		this.titlesong = titlesong;
+		this.singer = singer;
+	}
+	public void setTitlesong(String titlesong){
+		this.titlesong = titlesong;
+	}
+	public void setSinger(String singer){
+		this.singer = singer;
+	}
+	public String getTitlesong(){
+		return titlesong;
+	}
+	public String getSinger(){
+		return singer;
+	}
+	public String show(){
+		return super.show()+"제목 >> "+getTitlesong()+"\n가수 >> "+getSinger();
+	}
+}

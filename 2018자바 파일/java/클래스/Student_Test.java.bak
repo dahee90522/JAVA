@@ -1,0 +1,25 @@
+class Student
+{
+	String name;
+	int grade;
+	String subject;
+
+	static void study(String place, String sub){
+		System.out.println(place+"에서 "+sub + "을(를) 공부하다");
+	}
+	static void play(String n){
+		System.out.println(n + "와(과) 놀다");
+	}
+}
+	class Student_Test
+	{
+		public static void main(String ar[]){
+		Student s1=new Student();
+		s1.name = "황다희";
+		s1.grade = 1;
+		s1.subject = "전공";
+		System.out.println("내 이름은 "+s1.name+"이고, "+s1.grade+"학년이다. 지금 "+s1.subject+"를 공부하고 있다.");
+		s1.study(내 집, s1.subject);
+		s1.play("다희");
+	}
+}

@@ -1,0 +1,53 @@
+import java.util.*;
+abstract class Vehicle{
+	String name;
+	int price;
+
+	public abstract String start(int x);
+	public abstract String stop(String x, int y);
+	public abstract String take(String name, int price);
+}
+class bus extends Vehicle{
+	int y;
+	public String start(int x){
+		return x+"시 출발입니당~!";
+	}
+	public String stop(String x,int y){
+		return x+"에서 "+y+"분 뒤에 멈추겠습니당~!";
+	}
+	public String take(String name, int price){
+		//int price
+		price = 200*y;
+		return name+"님의 요금은 "+price+"원 입니당~!";
+	}
+}
+class train extends Vehicle{
+	public String start(int x){
+		return x+"시 출발입니당~!";
+	}
+	public String stop(String x, int y){
+		return x+"에서 "+y+"분 뒤에  멈추겠습니당~!";
+	}
+	public String take(String name, int price){
+		//int price
+		return name+"님의 요금은 "+price+"원 입니당~!";
+	}
+	
+}
+class Vehicle_Test{
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		//start, stop, take, infor
+		bus p1 = new bus();
+		train p2 = new train();
+		int x;String y;int m;
+		System.out.println("출발시간 입력");
+		p1.start(x = sc.nextInt());
+	
+		System.out.println("멈추는 위치와 몇분뒤 멈추는지 입력");
+		p1.stop(y = sc.next(), m = sc.nextInt());
+
+		System.out.println("이름 입력");
+		p1.take(y = sc.next(), m);
+	}
+}

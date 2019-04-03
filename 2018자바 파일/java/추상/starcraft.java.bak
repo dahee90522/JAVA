@@ -1,0 +1,54 @@
+interface starcraft{
+	int max = 100;
+	int min = 0;
+	
+	public void moveable();
+	public void attackable();
+}
+class jurg implements starcraft{
+	String color;
+	int x=20; int y=40;
+	int x1, y1;
+	public void moveable(String color){
+		System.out.println(color+"좌표는 요기");
+		for(int i = 1;i<=y;i++){
+			System.out.print("\n");
+		}
+		for(int i = 1;i<=x;i++){
+			System.out.print("  ");
+		}
+		System.out.println(color);
+		System.out.println("("+x+","+y+")");
+	}
+	public void attackable(int x1, int y1){//앞으로 이동하기
+		System.out.println(".");
+	}
+}
+
+class teran implements starcraft{
+	String color;
+	int x=10; int y=32;
+	int x1, y1;
+	public void moveable(String color){
+		System.out.println(color+"좌표는 요기");
+		for(int i = 1;i<=y;i++){
+			System.out.print("\n");
+		}
+		for(int i = 1;i<=y;i++){
+			System.out.print("  ");
+		}
+		System.out.println(color);
+		System.out.println("("+x+","+y+")");
+	}
+	public void attackable(int x1, int y1){//앞으로 이동하기
+		System.out.println(".");
+	}
+}
+class starcraft_Test{
+	public static void main(String ar[]){
+		jurg green = new jurg();
+		green.moveable("green");
+	}
+}/*public void attackable(int x1, int y1){//앞으로 이동하기
+		
+	}*/

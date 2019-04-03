@@ -1,0 +1,11 @@
+
+public class Television1 {
+	int channel;
+	int volume;
+	boolean onoff;
+	void print() {
+		System.out.println("채널을 "+channel+" 이고, 볼륨은 "+volume+" 입니다."+onoff);
+
+	}
+}
+	

@@ -1,0 +1,43 @@
+class Animal8{
+	int leg;
+	String color;
+	String owner;
+
+	public String run(){
+		return "¶Ù´Ù.";
+	}
+}
+class rabbit extends Animal8{
+	rabbit(int leg, String color, String owner){
+		this.leg=leg;
+		this.color = color;
+		this.owner = owner;
+	}
+	public String run(){
+		return "±øÃÑ±øÃÑ¶Ù´Ù.";
+	}
+}
+class tiger extends Animal8{
+	tiger(int leg, String color, String owner){
+		this.leg=leg;
+		this.color = color;
+		this.owner = owner;
+	}
+	public String run(){
+		return "¼ºÅ­¼ºÅ­ ¶Ù´Ù.";
+	}
+	public String eat(String what){
+		return what+"¸¦ ¸Ô´Ù.";
+	}
+}
+class extend_Test2{
+	public static void main(String ar[]){
+		rabbit ra = new rabbit(4, "white", "´ÙÈñ");
+		System.out.println("leg - "+ra.leg+"\tcolor - "+ra.color+"\towner - "+ra.owner);
+		System.out.println(ra.run());
+		System.out.println("-----------------------------------------------------------------------");
+		tiger ti = new tiger(4, "orange", "È²´ÙÈñ");
+		System.out.println("leg - "+ti.leg+"\ncolor - "+ti.color+"\nowner - "+ti.owner);
+		System.out.println(ti.run()+"\n"+ti.eat("°í±â"));
+	}
+}

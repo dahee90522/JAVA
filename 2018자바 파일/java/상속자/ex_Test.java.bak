@@ -1,0 +1,5 @@
+class ex_Test{
+	public static void main(String a[]){
+		Man m = new Man("Mike", 180);
+	}
+}

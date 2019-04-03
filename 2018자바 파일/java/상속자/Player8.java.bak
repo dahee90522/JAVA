@@ -1,0 +1,9 @@
+class Player8 extends Person8{
+	Player8(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	public void eat(){
+	System.out.println("°í±â¸¦ ¸Ô´Ù.");
+	}
+}

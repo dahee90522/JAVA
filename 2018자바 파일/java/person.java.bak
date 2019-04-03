@@ -1,0 +1,11 @@
+class person
+{
+	String name;
+	int age;
+	public void eat(){
+		System.out.println("¸Ô´Ù");
+	}
+	public void go(){
+		System.out.println("°¡´Ù");
+	}
+}

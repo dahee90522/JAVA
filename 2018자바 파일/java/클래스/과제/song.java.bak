@@ -1,0 +1,12 @@
+import java.util.*;
+class  song_test{
+	String title, album, composer;
+	int year, track;
+	public void show(){
+
+	}
+}
+class song{
+	public static void main(String ar[]){
+	}
+}

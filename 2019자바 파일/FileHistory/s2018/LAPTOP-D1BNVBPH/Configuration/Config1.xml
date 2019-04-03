@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataProtectionUserConfig SchemaVersion="1">
+  <UserName>s2018</UserName>
+  <FriendlyName>황다희</FriendlyName>
+  <PCName>LAPTOP-D1BNVBPH</PCName>
+  <UserId>1af0dcc4-587d-47a6-8383-2e51a7041eaa</UserId>
+  <Library>
+    <LibraryName>*2112ab0a-c86a-4ffe-a368-0de96e47012e</LibraryName>
+    <Folder>C:\Users\s2018\Music</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*e25b5812-be88-4bd9-94b0-29233477b6c3</LibraryName>
+    <Folder>C:\Users\s2018\Pictures\Saved Pictures</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*491e922f-5643-4af4-a7eb-4e7a138d8174</LibraryName>
+    <Folder>C:\Users\s2018\Videos</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*2b20df75-1eda-4039-8097-38798227d5b7</LibraryName>
+    <Folder>C:\Users\s2018\Pictures\Camera Roll</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*7b0db17d-9cd2-4a93-9733-46cc89022e7c</LibraryName>
+    <Folder>C:\Users\s2018\Documents</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*a990ae9f-a03b-4e80-94bc-9912d7504104</LibraryName>
+    <Folder>C:\Users\s2018\Pictures</Folder>
+  </Library>
+  <UserFolder>C:\Users\s2018\.AndroidStudio3.1</UserFolder>
+  <UserFolder>C:\Users\s2018\.atom</UserFolder>
+  <UserFolder>C:\Users\s2018\.BigNox</UserFolder>
+  <UserFolder>C:\Users\s2018\.eclipse</UserFolder>
+  <UserFolder>C:\Users\s2018\.gradle</UserFolder>
+  <UserFolder>C:\Users\s2018\.idlerc</UserFolder>
+  <UserFolder>C:\Users\s2018\.IntelliJIdea2018.1</UserFolder>
+  <UserFolder>C:\Users\s2018\.oracle_jre_usage</UserFolder>
+  <UserFolder>C:\Users\s2018\.p2</UserFolder>
+  <UserFolder>C:\Users\s2018\.PyCharm2018.1</UserFolder>
+  <UserFolder>C:\Users\s2018\.tooling</UserFolder>
+  <UserFolder>C:\Users\s2018\.vscode</UserFolder>
+  <UserFolder>C:\Users\s2018\Creative Cloud Files</UserFolder>
+  <UserFolder>C:\Users\s2018\Nox_share</UserFolder>
+  <UserFolder>C:\Users\s2018\Roaming</UserFolder>
+  <UserFolder>C:\Users\s2018\source</UserFolder>
+  <UserFolder>C:\Users\s2018\vmlogs</UserFolder>
+  <UserFolder>C:\Users\s2018\Searches</UserFolder>
+  <UserFolder>C:\Users\s2018\3D Objects</UserFolder>
+  <UserFolder>C:\Users\s2018\Desktop</UserFolder>
+  <UserFolder>C:\Users\s2018\OneDrive</UserFolder>
+  <UserFolder>C:\Users\s2018\Contacts</UserFolder>
+  <UserFolder>C:\Users\s2018\Pictures</UserFolder>
+  <UserFolder>C:\Users\s2018\Favorites</UserFolder>
+  <UserFolder>C:\Users\s2018\Videos</UserFolder>
+  <UserFolder>C:\Users\s2018\Music</UserFolder>
+  <UserFolder>C:\Users\s2018\Downloads</UserFolder>
+  <UserFolder>C:\Users\s2018\Documents</UserFolder>
+  <UserFolder>C:\Users\s2018\Links</UserFolder>
+  <UserFolder>C:\Users\s2018\Saved Games</UserFolder>
+  <LocalCatalogPath1>C:\Users\s2018\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog1.edb</LocalCatalogPath1>
+  <LocalCatalogPath2>C:\Users\s2018\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog2.edb</LocalCatalogPath2>
+  <StagingArea>
+    <StagingAreaPath>C:\Users\s2018\AppData\Local\Microsoft\Windows\FileHistory\Data</StagingAreaPath>
+    <StagingAreaMaximumCapacity>1186370826</StagingAreaMaximumCapacity>
+    <StagingAreaWarningThreshold>889778119</StagingAreaWarningThreshold>
+  </StagingArea>
+  <AvailabilityPolicies>
+    <TargetAbsenceTime>5</TargetAbsenceTime>
+    <TimeInUnprotectedState>3</TimeInUnprotectedState>
+  </AvailabilityPolicies>
+  <RetentionPolicies>
+    <RetentionPolicyType>DISABLED</RetentionPolicyType>
+    <MinimumRetentionAge>365</MinimumRetentionAge>
+  </RetentionPolicies>
+  <DPFrequency>3600</DPFrequency>
+  <DPStatus>DISABLED</DPStatus>
+  <Target>
+    <TargetName>이동식 디스크(D:)</TargetName>
+    <TargetUrl>D:\</TargetUrl>
+    <TargetVolumePath>\\?\Volume{ff92cdce-2daf-11e8-af76-74e5f9c5055c}\</TargetVolumePath>
+    <TargetDriveType>REMOVABLE</TargetDriveType>
+    <TargetConfigPath1>s2018\LAPTOP-D1BNVBPH\Configuration\Config1.xml</TargetConfigPath1>
+    <TargetConfigPath2>s2018\LAPTOP-D1BNVBPH\Configuration\Config2.xml</TargetConfigPath2>
+    <TargetCatalogPath1>s2018\LAPTOP-D1BNVBPH\Configuration\Catalog1.edb</TargetCatalogPath1>
+    <TargetCatalogPath2>s2018\LAPTOP-D1BNVBPH\Configuration\Catalog2.edb</TargetCatalogPath2>
+    <TargetBackupStorePath>s2018\LAPTOP-D1BNVBPH\Data</TargetBackupStorePath>
+    <TargetWarningThreshold>98</TargetWarningThreshold>
+  </Target>
+</DataProtectionUserConfig>

@@ -1,0 +1,13 @@
+import java.util.*;
+
+class do_while3 {
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+
+        int a = 10;
+		do{
+			System.out.prinln(a);
+			a--;
+		}while(a>=1);
+	}
+}

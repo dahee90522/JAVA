@@ -1,0 +1,38 @@
+class Shape {
+  int x; int y; double total;
+  public void setArea(int x, int y){
+	this.x = x;
+	this.y = y;
+  }//면적구할 수 있는 값 세팅
+  public double getArea(){
+	return total;
+  }//면적 구하기
+ }
+  class Circle extends shape{
+	  public void setArea(int x, int y){
+		total = x*y*3.14;
+	  }
+	  public double getArea(){
+		  return total;
+	  }
+  }
+  class Rect extends shape{
+	    public void setArea(int x, int y){
+		total = x*y/2;
+	  }
+	  public double getArea(){
+		  return total;
+	  }
+  }
+  class Diamond extends shape{
+	    public void setArea(int x, int y){
+		total = x*y;
+	  }
+	  public double getArea(){
+		  return total;
+	  }
+  }
+
+
+
+

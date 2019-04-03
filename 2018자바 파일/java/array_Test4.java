@@ -1,0 +1,15 @@
+//1. float 타입의 배열 f 선언하고 방 10개 만들고
+//f에 들어있는 값 출력
+//2. 키보드로 부터 10개의 정수를 입력받아 배열에 저장하고 이중에서 3의 배수인 수만 골라 출력
+//3. 사용자의 입력을 5개 받아서 최대값 출력
+
+import java.util.*;
+
+class array_Test4 {
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		float f[]=new float[10];
+		for(int a=0; a<f.length;a++){
+			System.out.println(f[a]);}
+	}
+}

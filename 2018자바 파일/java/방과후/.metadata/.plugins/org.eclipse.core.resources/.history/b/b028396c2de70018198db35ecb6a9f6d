@@ -1,0 +1,22 @@
+
+public class Circle 
+{
+	private int radius;
+	private String cir
+	public Circle(int radius, String cir) {this.radius = radius; this.cir = cir;}
+	public int getRadius() {return radius}
+	
+}
+class NamedCircle extends Circle{
+	public void show() {
+		System.out.println(cir+", ¹ÝÁö¸§ = "+radius;);
+	}
+}
+class Circle_Test{
+	public static void main(String[] args) {
+		NamedCircle w = new NamedCircle(5, "Waffle");
+		w.show;
+	}
+}
+
+	

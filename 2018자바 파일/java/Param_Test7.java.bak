@@ -1,0 +1,26 @@
+//4. 두개의 값을 입력받아 두 정수 사이의 3의 배수이거나 7의 배수인 수들의 합과 평균
+class Param_Test7{
+	public static void main(String ar[]){
+		int n = Integer.parseInt(ar[0]);
+		int m = Integer.parseInt(ar[1]);
+		int max = 0, min = 0, total = 0, count = 0;
+
+		if(n < m){
+			max = m;
+			min = n;
+		}
+		else if(m < n){
+			max = n;
+			min = m;
+		}
+
+		for(int i = min; i <= max; i++){
+			if(i%3 == 0 || i%7 == 0){
+				total += i;
+				count++;
+			}
+		}
+		System.out.println("n~m중 3의 배수이거나 7의 배수인 수들의 합: " + total);
+		System.out.println("n~m중 3의 배수이거나 7의 배수인 수들의 평균: " + total/count);
+	}
+}

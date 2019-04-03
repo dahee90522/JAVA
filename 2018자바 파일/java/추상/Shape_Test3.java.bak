@@ -1,0 +1,59 @@
+import java.util.*;
+abstract class DObject{
+	abstract public void draw();
+}
+class Figure extends DObject{
+	String type;//Circle, Line, Rect
+	public void draw(){
+		switch(type){
+			case "Circle" : System.out.println("Circle");break;
+			case "Line" : System.out.println("Line");break;
+			case "Rect" : System.out.println("Rect");break;
+		}
+	}
+}
+class Menu {
+		Scanner sc = new Scanner(System.in);
+	Figure f[] = new Figure[10];
+	Menu(){
+		for(int i = 0;i < 10 ;i++)  f[i]=new Figure(); 
+	}
+	public void Exit(){ System.exit(0); }
+	public void Insert(int i){
+		System.out.print("도형종류 Line (1), Rect (2), Circle (3) >>");
+		int n = sc.nextInt();
+		switch (n) {
+		case 1: f[i].type = "Line"; break;
+		case 2: f[i].type = "Rect"; break;//type를 넣음
+		case 3: f[i].type = "Circle"; break;
+		default : System.out.println("잘못 입력하셨습니다.");
+		}
+	}
+	public void delate(){
+		System.out.print("삭제할 줄 입력 : ");
+		int line = sc.nextInt();
+		f[line-1].type = "";
+	}
+	public void View(int i){
+		for(int z = 0;z<i;z++){
+			f[z].draw();
+		}
+	}
+}
+class  Shape_Test3{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int count = 0;//배열 카운트
+		Menu m = new Menu();
+		while(true){
+			System.out.print("삽입 [1]	삭제 [2]	모두보기 [3]	종료 [4] >>");
+			int choice = sc.nextInt();
+			switch(choice){
+				case 1 : m.Insert(count); count ++;break;
+				case 2 : m.delate();break;
+				case 3 : m.View(count);break;
+				case 4 : m.Exit();break;
+			}
+		}
+	}
+}

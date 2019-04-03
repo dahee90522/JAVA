@@ -1,0 +1,35 @@
+class Account
+{
+		/*
+		1. private String setaccount_No;//계좌번호//regNumber
+		2. private String setpasswd;//비밀번호 
+		3. private String owner;//예금주//name
+		4. private int balance;//잔고//balance
+		계좌번호 세팅 메서드 (12345678_
+		/비밀번호 세팅메서드 (1111
+		메서드 deposit()//입금
+		메서드 widthDraw()//출금
+		*/
+		
+	private String setaccount_No;
+	private String setpasswd;
+	private String owner;
+	private int balance;
+	public int deposit(int a){
+		System.out.println("입금할 금액 : "+a);
+	}
+	public int widthDraw(int a){
+		System.out.println("출금할 금액 : "+a);
+	}
+	public static void main(String ar[]){
+		System.out.println("우리은행");
+		System.out.print("계좌번호 입력 : ");
+		a1.setaccount_No = sc.next();
+		System.out.print("비밀번호 입력 : ");
+		a1.setpasswd = sc.next();
+		System.out.print("예금주 입력 : ");
+		a1.owner= sc.next();
+		System.out.print("잔고 입력 : ");
+		a1.balance = sc.next();
+	}
+}

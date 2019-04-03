@@ -1,0 +1,55 @@
+import java.util.*;
+class jjakhol {
+
+	//3. 양수인지 음수인지 판단
+	/*public void pandan(){
+		int a = 10;
+		if(a>=0)
+			System.out.println("양수");
+		else
+			System.out.println("음수");
+	}
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		plusminus p = new plusminus();
+		p.pandan();*/
+
+		/*public void pandan(int a){
+		if(a>=0)
+			System.out.println("양수);
+		else
+			System.out.println("음수");
+	}
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("수 입력");
+		
+		plusminus p = new plusminus();
+		p.pandan(sc.nextInt());*/
+
+
+		/*public int pandan(){
+		int a = 90;
+		return a;
+	}
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		plusminus p = new plusminus();
+		if(p.pandan()>=0)
+			System.out.println("양수");
+		else
+			System.out.println("음수");*/
+
+	/*		public int pandan(int a){
+		return a;
+	}
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		plusminus p = new plusminus();
+		System.out.print("수 입력 : ");
+		if(p.pandan(sc.nextInt()>=0)
+			System.out.println("양수");
+		else
+			System.out.println("음수");*/
+}
+}

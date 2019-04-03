@@ -1,0 +1,59 @@
+class Book{
+	private String number, title, author;
+	Book(String number, String title, String author){
+		this.number = number;
+		this.title = title;
+		this.author = author;
+	}
+	public void setNumbar(String number){
+		this.number = number;
+	}
+	public String getNumber(){
+		return number;
+	}
+	public void setTitle(String title){
+		this.title = title;
+	}
+	public String getTitle(){
+		return title;
+	}
+	public void setAuthor(String author){
+		this.author = author;
+	}
+	public String getAuthor(){
+		return author;
+	}
+}
+class Novel extends Book{
+	private int fees = 0;
+	private String number, title, author;
+	Book(String number, String title, String author){
+		super(number, title, author);
+	}
+	public int getLateFees(int date){
+		fees = date*300;
+		return fees;
+	}
+}
+class Poet extends Book{
+	private int fees = 0;
+	private String number, title, author;
+	Book(String number, String title, String author){
+		super(number, title, author);
+	}
+		public int getLateFees(int date){
+		fees = date*200;
+		return fees;
+	}
+}
+class ScienceFiction extends Book{
+	private int fees = 0;
+	private String number, title, author;
+	Book(String number, String title, String author){
+		super(number, title, author);
+	}
+	public int getLateFees(int date){
+		fees = date*600;
+		return fees;
+	}
+}

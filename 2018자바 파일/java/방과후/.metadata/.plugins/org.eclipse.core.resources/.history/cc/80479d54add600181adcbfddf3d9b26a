@@ -1,0 +1,19 @@
+class A{
+	public A() {
+		System.out.println("생성자 A");
+	}
+	public A(int x) {
+		System.out.println("매개 변수가 있는 생성자 A");
+	}
+}
+class B extends A{
+	public B() {
+		System.out.println("생성자 B");
+	}
+}
+public class ConEx2 {
+	public static void main(String[] args) {
+		B b = new B();
+		
+	}
+}

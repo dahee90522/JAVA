@@ -1,0 +1,20 @@
+1. reached end of file......
+    {}에러: 
+    {}체크하거나 갯수확인
+
+2. incompatible types: possbile lossy....
+    강제형변환 안했을 때
+
+3. cannot find symbol
+    변수선언 안하고 사용할 때
+
+4. variable aa might not have been initialized...
+    변수 초기화 안해주었을 때--> 값을 대입해주면 된다.
+
+5. ;expected (기대하다)
+    ;를 안붙였을때-->붙이면 됌
+
+6. 기본클래스를 찾거나 로드할 수 없습니다.
+    클래스 이름과 파일명이 다를때 (90%)
+    
+    

@@ -1,0 +1,21 @@
+
+public class Television {
+	int channel;
+	int volume;
+	boolean onoff;
+	
+	public static void main(String ar[]) {
+		Television tv = new Television();
+		tv.channel = 7;
+		tv.volume=6;
+		tv.onoff = true;
+		
+		System.out.println(tv.channel + tv.volume + tv.onoff);
+		
+		Television yourTV = new Television();
+		yourTV.channel = 9;
+		yourTV.volume = 12;
+		yourTV.onoff=true;
+		System.out.println(yourTV.channel + yourTV.volume + yourTV.onoff);
+	}
+}

@@ -1,0 +1,46 @@
+class Rect {
+	public int width, height;
+	Rect(int width, int height){
+		this.width = width;
+		this.height = height;
+	}
+	
+	public boolean equals(Rect p) {
+		if(width*height&&p.width*p.height);
+		return faulse;
+	}
+}
+
+public class Rect {
+	public static void main(String ar[]) {
+		Rect a = new Rect(2, 3);
+		Rect b = new Rect(3, 2);
+		Rect c = new Rect(3, 4);
+		 if(a.equals(b))System.out.println("a is equals b");
+		 if(a.equals(c))System.out.println("a is equals c");
+		 if(c.equals(c))System.out.println("b is equals c");
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

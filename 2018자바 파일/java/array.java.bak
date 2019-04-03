@@ -1,0 +1,24 @@
+class array_c_445p_12{
+public static void main(String ar){
+	int ar[][]=sc.new int[4][4];
+	ar[4][4] = {{78, 48, 78, 98}, {99, 92, 83, 89}, {29, 64, 83, 89}, {34, 78, 92, 56}};
+	int t = 0; //모든 수의 합
+	int w = 0;
+	int h = 0;
+	for (int i=0;i < ar.length;i++){
+		for (int j= 0;j < ar[i].length;j++){
+			w = ar[i][j];
+			h = ar[j][i];
+		}
+		System.out.println("배열 가로 " + i + "번째 줄의 합 = " + w);
+		System.out.println("배열 세로 " + i + "번째 줄의 합 = " + h);
+	}
+	for (int i = 0; i < ar.length ; i++){
+		for (int j = 0; j < ar[i].length ; j++){
+			t = ar[i][j];
+		}
+	}
+	System.out.println("전체 줄의 합 = " + t);
+	
+    }
+}

@@ -1,0 +1,22 @@
+import java.util.*;
+
+class ArrayList_Test2{
+	public static void main(String ar[]){
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		int arr;
+		for(int i= 1;i<=10;i++){
+			list2.add(arr = sc.nextInt());
+		}
+		int temp=0;
+		for(int i = 0;i<10;i++){
+			for(int j = i+1;j<10;j++){
+				if(list2.get(i)<list2.get(j)){
+					temp = list2.get(i);
+				}
+				else{}
+			}
+		}
+		System.out.println(temp);
+	}
+}

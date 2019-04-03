@@ -1,0 +1,25 @@
+import java.util.*;
+
+class 31{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		
+		int n;
+		System.out.println(">>Rule<<\n1. 31에 닿는 사람이 패배\n2. 한사람당 3개까지 가능");
+		System.out.println("먼저하기 : 1 / 컴퓨터가 먼저하기 : 0");
+		int a = sc.nextInt();
+		while(1){
+		if(a>1||a<0)
+			System.out.print("다시 입력해주세요 : ");
+		else
+			break;
+		}
+		if (a=0)
+		{
+			System.out.print("몇개? : ")
+		}
+		else if(a=1){
+		}
+
+	}
+}

@@ -1,0 +1,19 @@
+import java.util.*;
+
+class numbertop {
+	public static void main(String ar[]){
+		Scanner sc=new Scanner(System.in); 
+
+		System.out.print("정수 n 입력 : ");
+		int a = sc.nextInt();
+		for (int b = 1; b<=a ; b++)
+		{
+			for (int c = b; c<=(b+3) ; c++ )
+			{
+		System.out.print(c);
+
+			}
+		System.out.println("");
+		}
+	}
+}

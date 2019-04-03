@@ -1,0 +1,21 @@
+
+public class Circle 
+{
+	private int radius;
+	private String cir;
+	public void setRadius(int radius, String cir) {this.radius = radius; this.cir = cir;}
+	public int getRadius() {return radius;}
+	public void show() {
+		System.out.println(cir+", ¹ÝÁö¸§ = "+radius);
+	}
+	
+}
+
+class Circle_Test{
+	public static void main(String[] args) {
+		Circle w = new Circle(5, "Waffle");
+		w.show();
+	}
+}
+
+	

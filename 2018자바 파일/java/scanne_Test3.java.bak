@@ -1,0 +1,15 @@
+import java.util.*;
+
+class numbermountain {
+	public static void main(String ar[]){
+		Scanner sc=new Scanner(System.in);
+		
+		int a=sc.nextInt();
+		for (int b = 1; b<=a ; b++)
+		{
+			for (int c = b; c<=a ; c++ )
+			{
+				System.out.print(c);
+			}
+			System.out.println("");
+		}

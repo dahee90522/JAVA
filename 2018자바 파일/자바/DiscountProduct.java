@@ -1,0 +1,17 @@
+/*class DiscountProduct extends Product{
+	private String name;
+	private int count, price, discount;
+	DiscountProduct(String name, int price, int count, int discount){
+		super(name, price, count);
+		this.discount = discount;
+	}
+	public void setDiscount(int discount){
+		this.discount = discount;
+	}
+	public int getDiscount(){
+		return getPrice()*discount/100;
+	}
+	public String pr(){
+		return "\n이름 : "+getName()+"할인, 가격 : "+getDiscount();
+	}
+}*/
