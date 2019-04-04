@@ -1,1 +1,2 @@
-# My High School JAVA Project
+# My High School JAVA Project :woman_technologist:
+
